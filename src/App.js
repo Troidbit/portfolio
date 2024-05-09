@@ -1,4 +1,6 @@
 import './App.css';
+import Nav from './nav/nav.js'
+import Popout from './popout/popout.js';
 
 function MyButton() {
   return (
@@ -8,10 +10,10 @@ function MyButton() {
 
 function App() {
   return (
-    <div className="App">
-      <h1>I'm here to celebrate</h1>
-      <MyButton/>
-   </div>
+    <div class="bg-warm min-h-screen shadow-md">
+      <Nav />
+      <Popout />
+    </div>
   );
 }
 
