@@ -10,7 +10,7 @@ function MyButton() {
 
 function App() {
   return (
-    <div class="bg-warm min-h-screen shadow-md">
+    <div class="bg-warm min-h-screen flex justify-center">
       <Nav />
       <Popout />
     </div>
