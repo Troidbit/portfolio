@@ -11,6 +11,7 @@ header {
   position: fixed;
   top: 5px;
   width: 100%;
+  height: auto;
   z-index: 1024;
   display: flex;
   justify-content: center;
@@ -18,6 +19,7 @@ header {
 
 .flex-box {
   width: 1000px;
+  height: auto;
   position: relative;
   border-radius: 30px;
   background-color: #ebebeb;
@@ -58,14 +60,9 @@ nav ul li a:hover {
   position: relative;
   width: 100%;
   justify-content: center;
-  padding-top: 8vh;
 }
 
-main section {
-  background-color:#e8e8e8 ;
-}
-
-main .welcome div {
+main #welcome div {
   display:flex;
   justify-content: center;
 }
@@ -82,6 +79,45 @@ main .welcome div {
   box-shadow: 0 0 40px 0px #000;
 }
 
+#welcome ul {
+  list-style: none;
+}
+
+#welcome ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#welcome ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#welcome ul li a:hover {
+  text-decoration: underline;
+  color: #00708b; 
+}
+
+#headshot {
+  padding: 10px;
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+}
+
+#welcome .vertical-flex {
+  display:flex;
+  flex-direction: column;
+}
+
+#welcome h2 {
+  margin-top: 3rem;
+}
+
+#welcome .vertical-flex p {
+  margin-bottom: 10rem;
+}
+
 section {
   margin-block: 10rem;
 
@@ -89,6 +125,8 @@ section {
 
 h2 {
   font-size:2.5rem;
+  margin: auto;
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
