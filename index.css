@@ -17,6 +17,9 @@ header {
   justify-content: center;
 }
 
+main {
+  padding-top: 120px;
+}
 .flex-box {
   width: 1000px;
   height: auto;
@@ -62,8 +65,7 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-main #welcome div {
-  display:flex;
+#welcome {
   justify-content: center;
 }
 
@@ -81,6 +83,8 @@ main #welcome div {
 
 #welcome ul {
   list-style: none;
+  display: table;
+  padding-left: 0px;
 }
 
 #welcome ul li {
@@ -99,42 +103,43 @@ main #welcome div {
 }
 
 #headshot {
-  padding: 10px;
   height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
   width: auto;
   border-radius: 50%;
 }
 
-#welcome .vertical-flex {
-  display:flex;
+.vertical-flex {
   flex-direction: column;
 }
 
-#welcome h2 {
-  margin-top: 3rem;
-}
-
-#welcome .vertical-flex p {
-  margin-bottom: 10rem;
-}
-
 section {
-  margin-block: 10rem;
+  display: flex;
+  margin-block: 1rem;
+  padding-bottom: 1rem;
 
-}
-
-.fa {
-  font-size: 30px;
-}
-
-.fa-brands {
-  font-size: 30px;
+  animation: fadeIn ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 h2 {
-  font-size:2.5rem;
-  margin: auto;
-  text-align: center;
+  font-size: 2.5rem;
+}
+
+.blue-bg {
+  background-color:#87CEEB;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 900px) {
