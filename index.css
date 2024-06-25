@@ -140,6 +140,11 @@ section {
   animation-fill-mode: forwards;
 }
 
+.media-content {
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
 h2 {
   font-size: 2.5rem;
 }
