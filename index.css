@@ -114,13 +114,26 @@ nav ul li a:hover {
   animation-fill-mode: forwards;
 }
 
+#paperclip {
+  left:40%;
+  bottom:178px;
+  position: relative;
+  height: 100px;
+  width: auto;
+  z-index: 5;
+}
+
 #headshot {
+  transform: rotate(-15deg);
   height: 250px;
-  margin-right: 20px;
-  margin-left: 20px;
   width: auto;
   border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+  box-shadow: 2px 0 20px 2px #8b8b8b;
+}
 
+#image {
   animation: fadeIn ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
