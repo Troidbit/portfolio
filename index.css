@@ -123,6 +123,14 @@ section {
 
 }
 
+.fa {
+  font-size: 30px;
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
 h2 {
   font-size:2.5rem;
   margin: auto;
