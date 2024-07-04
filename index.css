@@ -1,9 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url("public/background_dot.jpg");
-  background-repeat: repeat;
-  background-size: 150px 125px;
-  background-attachment: fixed;
+  background: linear-gradient(to bottom,#FFFFFF,#ffd17b);
 }
 
 header {
@@ -114,17 +111,7 @@ nav ul li a:hover {
   animation-fill-mode: forwards;
 }
 
-#paperclip {
-  left:40%;
-  bottom:178px;
-  position: relative;
-  height: 100px;
-  width: auto;
-  z-index: 5;
-}
-
 #headshot {
-  transform: rotate(-15deg);
   height: 250px;
   width: auto;
   border-radius: 50%;
@@ -163,7 +150,7 @@ h2 {
 }
 
 .blue-bg {
-  background-color:#87CEEB;
+  background-color:#ffd17b;
 }
 
 @keyframes fadeIn{
