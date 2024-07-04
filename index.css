@@ -140,16 +140,53 @@ section {
   animation-fill-mode: forwards;
 }
 
+#experience .span {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+
+}
+
 .media-content {
   flex-direction:row;
   flex-wrap: wrap;
+}
+
+#experience h2 {
+  margin: 0 auto;
+}
+
+#Leepfrog {
+  display: flex;
+  flex-direction: row;
+}
+
+.span h3 {
+  margin: 0 auto;
+}
+
+#AE {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+#experience img {
+  width: 50%;
+  height: auto;
+}
+
+#project {
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
   font-size: 2.5rem;
 }
 
-.blue-bg {
+.bg {
   background-color:#ffd17b;
 }
 

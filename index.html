@@ -1,74 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connor Persels</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Connor Persels</title>
-  <link rel="stylesheet" href="index.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
+  <body>
+    <header>
+      <div class="flex-box">
+        <h1><a href="https://persels.net">Connor Persels</a></h1>
 
-<body>
-  <header>
-    <div class="flex-box">
-      <h1><a href="https://persels.net">Connor Persels</a></h1>
+        <nav>
+          <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#creative">Creative</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="pageBox">
+          <section id="welcome">
+            <img id="headshot" src="public/headshot.JPG" alt="Connor Persels" />
+            <div>
+              <h2>Hi, I'm Connor Persels.</h2>
+              <div id="inside">
+                <p style="font-size: 1rem">
+                  <br />Iowa State graduate. Web a11y intern. Music/video
+                  hobbyist. Aspiring developer.
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://github.com/Troidbit"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/cmpersels"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                  </li>
 
-      <nav>
-        <ul>
-          <li><a href="#welcome">Welcome</a></li>
-          <li><a href="#workplace">Experience</a></li>
-          <li><a href="#design">Design</a></li>
-          <li><a href="#creative">Creative</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <div class="wrapper">
-      <div class="pageBox">
-
-        <section id="welcome">
-          <img id="headshot" src="public/headshot.JPG" alt="Connor Persels" />
-          <div>
-            <h2>Hi, I'm Connor Persels.</h2>
-            <div id="inside">
-              <p style="font-size: 1rem;">
-                <br>Iowa State graduate. Web a11y intern. Music/video
-                hobbyist. Aspiring developer.
-              </p>
-              <ul>
-                <li><a href="https://github.com/Troidbit" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-github fa-xl"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/cmpersels" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                  </a>
-                </li>
-
-
-                <li><a href="https://www.youtube.com/@connorpersels" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-youtube fa-xl"></i>
-                  </a></li>
-              </ul>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/@connorpersels"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fa-brands fa-youtube fa-xl"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section id="workplace" class="blue-bg vertical-flex">
-          <h2>Workplace</h2>
-          <div id="Leepfrog">
-            <h3>Leepfrog Technologies Web Accessibility Intern</h3>
-            <p>
-              Auditing web products for compliance with WCAG 2.2 and optimizing
-              accessibility guideline proccesses internally.
-            </p>
-          </div>
-          <div id="CROS">
+          <section id="experience" class="bg vertical-flex">
+            <h2>Experience</h2>
+            <div id="Leepfrog" class="span1">
+              <img src="public/froggie.webp" alt="" />
+              <div class="span">
+                <h3>Leepfrog Technologies Web Accessibility Intern</h3>
+                <p>
+                  Auditing web products for compliance with WCAG 2.2 and
+                  optimizing accessibility guideline proccesses internally.
+                </p>
+              </div>
+            </div>
+            <div id="AE" class="span1">
+              <div class="span">
+                <h3>Ascended Electronics</h3>
+                <ul>
+                  <li>
+                    Professional system negotiating, planning, and implementation.
+                  </li>
+                  <li>Customer service and satisfaction. </li>
+                </ul>
+              </div>
+              <img src="public/ae_img.png" alt="" />
+            </div>
+          </section>
+
+          <section id="project">
+            <h2>Project</h2>
             <h3>
               <u>C</u>ustom <u>R</u>aspberry Pi <u>O</u>perating <u>S</u>ystem
               (CROS)
@@ -77,37 +113,45 @@
               Co-developed from the ground up, a kernel, c library, and front
               facing shell for the Raspberry Pi 3.0
             </p>
-          </div>
-          <a href="https://github.com/ngiddings/cros-kernel" target="_blank" rel="noopener noreferrer">A link to the
-            project on Github</a>
-        </section>
+            <a
+              href="https://github.com/ngiddings/cros-kernel"
+              target="_blank"
+              rel="noopener noreferrer"
+              >A link to the project on Github</a
+            >
+          </section>
+          <section id="creative" class="bg vertical-flex">
+            <h2>Creative</h2>
+            <div class="media-content">
+              <iframe
+                width="400"
+                height="300"
+                src="https://www.youtube.com/embed/ty1kYuO8Kh4?si=VpW5j8wpX45jss1N"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                width="400"
+                height="300"
+                src="https://www.youtube.com/embed/S9RfMx-gGCE?si=16wsCM_cJ-HLDK1p"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </section>
 
-
-        <section id="design">
-          <h2>Design</h2>
-
-        </section>
-        <section id="creative" class="vertical-flex">
-          <h2>Creative</h2>
-          <div class="media-content">
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/ty1kYuO8Kh4?si=VpW5j8wpX45jss1N"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/S9RfMx-gGCE?si=16wsCM_cJ-HLDK1p"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-        </section>
-
-        <section id="contact" class="blue-bg">
-          <h2>Contact</h2>
-          <p>connor.persels@gmail.com</p>
-        </section>
+          <section id="contact">
+            <h2>Contact</h2>
+            <p>connor.persels@gmail.com</p>
+          </section>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
